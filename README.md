@@ -206,8 +206,8 @@ Pull Request’ы, идеи и улучшения приветствуются!
 
 ---
 
-Команды для выполнения этого проекта поочередности
-
+# Команды для выполнения этого проекта поочередности
+---
 sudo ip netns add vm2
 sudo ip link add veth0 type veth peer name veth1
 sudo ip link set veth1 netns vm2
