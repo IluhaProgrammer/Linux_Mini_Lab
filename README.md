@@ -207,7 +207,8 @@ Pull Request’ы, идеи и улучшения приветствуются!
 ---
 
 # Команды для выполнения этого проекта поочередности
----
+
+``` bash
 sudo ip netns add vm2
 sudo ip link add veth0 type veth peer name veth1
 sudo ip link set veth1 netns vm2
@@ -308,6 +309,7 @@ ls -lh /backups/etc/
 ls -lh /backups/logs/
 sudo ip netns exec vm2 ssh ubuntu@192.168.50.1 "hostname"
 
+```
 
 ✅ **Тестировано:** Ubuntu 25.10  
 ✅ **Состояние:** Стабильная версия  
